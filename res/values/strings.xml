@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN -->
+    <string name="app_name">RssTrafficScotland</string>
+    <string name="Current">Current Incidents</string>
+    <string name="Roadworks">Roadworks</string>
+    <string name="Planned">Planned Roadworks</string>
+
+    <!-- Menu -->
+    <string name="menu_about">About</string>
+    
+    <!-- Buttons -->
+    <string name="btnExit">Exit</string>
+    <string name="btnAbout">About</string>
+    <string name="btnHome">Home</string>
+    
+    <!-- Dialog -->
+	<string name="tvStartDate">Start Date: </string>
+	<string name="tvEndDate">End Date: </string>
+	<string name="btnFilter">Filter Dates</string>
+	<string name="btnSetDate">Set Date</string>
+	
+	<!-- COLORS -->
+	<color name="blue">#00B4FF</color>
+	<color name="white">#FFFFFF</color>
+</resources>

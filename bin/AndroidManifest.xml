@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.me.rsstrafficscotland"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+    android:targetPackage="org.me.rsstrafficscotland"
+    android:label="Junit Testing" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+        <activity
+            android:name="org.me.rsstrafficscotland.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.me.rsstrafficscotland.PlannedRoadworks"
+            android:label="@string/Planned"
+            android:configChanges="orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.PLANNED" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.me.rsstrafficscotland.Roadworks"
+            android:label="@string/Roadworks"
+            android:configChanges="orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.ROADWORKS" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
